@@ -1,9 +1,29 @@
 .my_link{
 width: 80px;
+height: 80px;
 padding: 20px;
 margin: 20px;
 border-radius: 20px;
-display: block;
 background-color: black;
 color:crimson;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
+
+
+}
+
+.my_img{
+max-width: 80px;
+max-height: 80px;
+}
+
+
+
+.my_link:hover{
+background-color:gray;
+transform: scale(1.1);
+
+
 }
